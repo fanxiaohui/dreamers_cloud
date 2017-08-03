@@ -1,0 +1,60 @@
+{
+	"serverip":	[{
+			"main_port":	10080,
+			"main_ip":	"INADDR_ANY"
+		},{
+			"release_port":	9999,
+			"release_ip":	"192.168.1.66"
+		}],
+	"Computer":	[{
+			"id":	0,
+			"Control_flag": 1,  //默认为1，直接发命令给分控，置0，直接发命令给设备
+			"Control_ip":	"192.168.1.22",  //分控IP地址和端口号
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.22",  //设备IP地址和端口号
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 //命令开
+			"poweroff":	"55AA000201000D0D"	 //命令关	
+		}, {
+			"id":	1,
+			"Control_flag": 1,  //默认为1，直接发命令给分控，置0，直接发命令给设备
+			"Control_ip":	"192.168.1.22",  //分控IP地址和端口号
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.22",  //设备IP地址和端口号
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 //命令开
+			"poweroff":	"55AA000201000D0D"	 //命令关
+		}],
+	"Projector":	[{
+			"id":	0,
+			"ip":	"192.168.1.22",
+			"port":	"10000",
+			"len":	8,
+			"poweron":	"55AA000201010D0D",
+			"poweroff":	"55AA000201000D0D"
+		}, {
+			"id":	1,
+			"ip":	"192.168.1.78",
+			"port":	"10000",
+			"len":	8,
+			"poweron":	"55AA000202010D0D",
+			"poweroff":	"55AA000202000D0D"
+		}],
+	"StrongPower":	[{
+			"id":	0,
+			"ip":	"192.168.1.23",
+			"port":	"1003",
+			"len":	8,
+			"poweron":	"192.168.1.38:1003:01",
+			"poweroff":	"192.168.1.39:1003:02"
+		}],
+	"WeakPower":	[{
+			"id":	0,
+			"ip":	"192.168.1.23",
+			"port":	"1003",
+			"len":	8,
+			"poweron":	"192.168.1.46:1003:01",
+			"poweroff":	"192.168.1.47:1003:02"
+		}]
+}
+

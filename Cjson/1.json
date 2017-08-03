@@ -1,0 +1,38 @@
+{
+    "pr1": [
+        {
+            "Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+        }
+    ],
+    "pr2": [
+        {
+            "Statue": 1,
+            "Runtime": 874,
+            "Boot": 70,
+            "Alarm": 2,
+            "Lasttime": 1
+        }
+    ],
+    "pr3": [
+        {
+            "Statue": 5,
+            "Runtime": 17,
+            "Boot": 1403,
+            "Alarm": 3,
+            "Lasttime": 1503
+        }
+    ],
+    "pr4": [
+        {
+            "Statue": 4,
+            "Runtime": 18,
+            "Boot": 1404,
+            "Alarm": 4,
+            "Lasttime": 1501
+        }
+    ]
+}

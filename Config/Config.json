@@ -1,0 +1,59 @@
+{
+	"serverip":	[{
+			"main_port":	10080,
+			"main_ip":	"INADDR_ANY"
+		},{
+			"release_port":	9999,
+			"release_ip":	"192.168.1.66"
+		}],
+	"Computer":	[{
+			"id":	0,
+			"Control_flag": 1,  
+			"Control_ip":	"192.168.1.22", 
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.22", 
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	
+			"poweroff":	"55AA000201000D0D"	
+		}, {
+			"id":	1,
+			"Control_flag": 1, 
+			"Control_ip":	"192.168.1.28",  
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.28",  
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 
+			"poweroff":	"55AA000201000D0D"	 
+		}],
+	"Projector":	[{
+			"id":	0,
+			"Control_flag": 1, 
+			"Control_ip":	"192.168.1.22",  
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.23",  
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 
+			"poweroff":	"55AA000201000D0D"	 
+		}],
+	"StrongPower":	[{
+			"id":	0,
+			"Control_flag": 1, 
+			"Control_ip":	"192.168.1.22",  
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.23",  
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 
+			"poweroff":	"55AA000201000D0D"
+		}],
+	"WeakPower":	[{
+			"id":	0,
+			"Control_flag": 1, 
+			"Control_ip":	"192.168.1.22",  
+			"Control_port":	"10000",
+			"Device_ip":	"192.168.1.23",  
+			"Device_port":	"10000",
+			"poweron":	"55AA000201010D0D",	 
+			"poweroff":	"55AA000201000D0D"
+		}]
+}
+

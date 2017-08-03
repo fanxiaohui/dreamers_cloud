@@ -1,0 +1,64 @@
+{
+	"Computer":
+		[{
+			"name":	1,
+			"Enable": 1,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+		}, {
+            "name":	2,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+        }, {
+            "name":	3,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+        }],
+	"Projector":
+		[{
+			"name":	1,
+			"Enable": 1,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+		}, {
+            "name":	2,
+			"Enable": 1,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+        }],
+	"StrongPower":
+		[{
+			"name":	1,
+			"Enable": 1,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+		}],
+	"WeakPower":
+		[{
+			"name":	1,
+			"Enable": 1,
+			"Statue": 1,
+            "Runtime": 3085,
+            "Boot": 34,
+            "Alarm": 0,
+            "Lasttime": 1
+		}]
+}

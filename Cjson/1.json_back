@@ -1,0 +1,30 @@
+{
+	"people":[
+				{	"firstname":"brett",
+					"lastname":"McLaus",
+					"email":11
+				},
+				{	"firstname":"sssss",
+					"lastname":"McLaus",
+					"email":22
+				},
+				{	"firstname":"ddddd",
+					"lastname":"McLaus",
+					"email":33
+				}
+	],
+	"name":[
+				{	"firstname1":"brett1",
+					"lastname1":"McLaus1",
+					"email1":44
+				},
+				{	"firstname1":"sssss1",
+					"lastname1":"McLaus1",
+					"email1":55
+				},
+				{	"firstname1":"ddddd1",
+					"lastname1":"McLaus1",
+					"email1":666
+				}
+	]
+}
